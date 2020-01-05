@@ -13,5 +13,12 @@ There are some sample files demonstrating these dependencies so anyone can quick
 
 Additional dependencies that may be configured in following updates include:
 
-* Docker/Dockerfile
-* Google Guice
+* Docker/Dockerfile - prewritten Dockerfile for quick container creation
+* Google Guice - change the dependency injection framework from Spring Boot to Google Guice
+
+## Recommended Easy Setup
+
+1. Clone this package onto your local machine.
+2. Use IntelliJ to grab the Maven dependencies.
+3. Add the Lombok plugin to IntelliJ.
+3. Turn on annotation support for IntelliJ so it can recognize Lombok annotations.
